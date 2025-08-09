@@ -54,7 +54,6 @@ adb forward tcp:8080 tcp:8080
 npm start
 
 ### Project Documentation
-For Software:
 To run the full application, you need to start three processes in order, each in its own terminal window.
 
 1. Start the ADB Bridge:
@@ -70,48 +69,20 @@ In your React project directory, run:
 npm start
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Connecting..](20250809_23h01m06s_grim.png)
+ADB successfully connected to Phone.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![AI identify dog images](20250809_23h02m41s_grim.png)
+AI model recognizes the images of a dog.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
 Since this project uses off-the-shelf hardware (a computer and a smartphone), there are no custom electronic schematics or circuit diagrams involved. The primary "circuit" is the data connection established by the USB cable.
 
 Connection diagram showing the smartphone connected to the host computer via a USB-C data cable. The computer runs the backend processing, and the phone provides the video source.
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+[Shows how the project works](https://drive.google.com/file/d/1PaPvZgMvNVAAUU6Tt3-pn5ReZ2oI_tJD/view?usp=drive_link)
+The video demonstrates the working of the project, from its initialization to identifying images of dogs shown.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
