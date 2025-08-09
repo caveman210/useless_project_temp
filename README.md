@@ -5,13 +5,10 @@
 
 
 ## Basic Details
-### Team Name: [Name]
-
+### Team Name: 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [George Sandeep] - [College of Engineering, Trivandrum]
 
 ### Project Description
 [2-3 lines about what your project does]
@@ -25,14 +22,14 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- [Python, JS]
+- [React]
+- [PyTorch, OpenCV]
 - [Tools used]
 
 For Hardware:
-- [List main components]
-- [List specifications]
+- [A mobile camera]
+- [Any mobile with a working camera and runs Android 6+]
 - [List tools required]
 
 ### Implementation
