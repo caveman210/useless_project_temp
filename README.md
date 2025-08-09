@@ -25,8 +25,8 @@ This software keeps a count of how many "unique" dogs surround a camera for a gi
 For Software:
 - Python, JS
 - React, Tailwind CSS
-- PyTorch, OpenCV
-- Python Venv, Uvicorn
+- PyTorch, OpenCV, FastAPI, TorchVision, Ultralytics
+- Python Venv, Uvicorn, NumPy, SciPy, IP WebCam App
 
 For Hardware:
 - A mobile camera
@@ -35,8 +35,18 @@ For Hardware:
 
 ### Implementation
 For Software:
+fastapi
+uvicorn[standard]
+python-socketio
+opencv-python-headless
+torch
+torchvision
+ultralytics
+numpy
+scipy
+
 # Installation
-[commands]
+npm install so
 
 # Run
 uvicorn main:app
@@ -44,6 +54,19 @@ npm start
 
 ### Project Documentation
 For Software:
+To run the full application, you need to start three processes in order, each in its own terminal window.
+
+1. Start the ADB Bridge:
+Connect your phone (with USB Debugging enabled and the "IP Webcam" app running) and run:
+adb forward tcp:8080 tcp:8080
+
+2. Start the Python Backend Server:
+In the directory with your main.py file, run:
+uvicorn main:app --reload
+
+3. Start the React Frontend App:
+In your React project directory, run:
+npm start
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -62,11 +85,9 @@ For Software:
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+Since this project uses off-the-shelf hardware (a computer and a smartphone), there are no custom electronic schematics or circuit diagrams involved. The primary "circuit" is the data connection established by the USB cable.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+Connection diagram showing the smartphone connected to the host computer via a USB-C data cable. The computer runs the backend processing, and the phone provides the video source.
 
 # Build Photos
 ![Components](Add photo of your components here)
