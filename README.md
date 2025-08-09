@@ -1,36 +1,37 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Dog Sentry 🎯
 
 
 ## Basic Details
-### Team Name: 
+### Team Name: Barkalicious
 
 ### Team Members
-- Team Lead: [George Sandeep] - [College of Engineering, Trivandrum]
+- Team Lead: George Sandeep, *College of Engineering, Trivandrum*
 
 ### Project Description
-[2-3 lines about what your project does]
+Basically, what it does keep a real-time count of dogs who appear within the camera's scope for a fixed period of time.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Ever wondered how many dogs are around you? These little puppers are everywhere, but then, you never know just how many surround you, even if you see them. This project aims to solve this very issue, and keep track of how many are around you. 
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+I intend to solve it by using all the trash cameras around you, which are meant to keep an eye out for robberies but mysteriously turn off or fetch corrupted AV data whenever it's intention was to be fulfilled. Basically, giving the unemployed a job. 
+This software keeps a count of how many "unique" dogs surround a camera for a given period of time, and the program has been done with ADB using a mobile-camera for proof-of-concept. But still, it can be deployed for such uses later on, wirelessly.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Python, JS]
-- [React]
-- [PyTorch, OpenCV]
-- [Tools used]
+- Python, JS
+- React, Tailwind CSS
+- PyTorch, OpenCV
+- Python Venv, Uvicorn
 
 For Hardware:
-- [A mobile camera]
-- [Any mobile with a working camera and runs Android 6+]
-- [List tools required]
+- A mobile camera
+- Any mobile with a working camera and runs Android 6+
+- A USB cable?! I mean, it was only for proof-of-concept..
 
 ### Implementation
 For Software:
@@ -38,7 +39,8 @@ For Software:
 [commands]
 
 # Run
-[commands]
+uvicorn main:app
+npm start
 
 ### Project Documentation
 For Software:
