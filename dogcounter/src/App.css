@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #1e2127;
+  padding: 20px;
+  border-bottom: 2px solid #61dafb;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.status {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.connected {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.disconnected {
+  color: #ff4136;
+  font-weight: bold;
+}
+
+.App-main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.video-container {
+  border: 5px solid #61dafb;
+  border-radius: 8px;
+  background-color: #1e2127;
+  min-width: 640px;
+  min-height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.video-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.placeholder {
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+.counter-container {
+  background-color: #1e2127;
+  padding: 20px 40px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.counter-container h2 {
+  margin: 0 0 10px 0;
+}
+
+.count {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #61dafb;
+  margin: 0;
+}
