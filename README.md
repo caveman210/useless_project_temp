@@ -5,7 +5,7 @@
 
 
 ## Basic Details
-### Team Name: Barkalicious
+### Team Name: Dog Sentry
 
 ### Team Members
 - Team Lead: George Sandeep, *College of Engineering, Trivandrum*
@@ -25,7 +25,7 @@ This software keeps a count of how many "unique" dogs surround a camera for a gi
 For Software:
 - Python, JS
 - React, Tailwind CSS
-- PyTorch, OpenCV, FastAPI, TorchVision, Ultralytics
+- PyTorch, OpenCV, FastAPI, TorchVision, Ultralytics-YOLOv8
 - Python Venv, Uvicorn, NumPy, SciPy, IP WebCam App
 
 For Hardware:
@@ -35,21 +35,22 @@ For Hardware:
 
 ### Implementation
 For Software:
-fastapi
-uvicorn[standard]
-python-socketio
-opencv-python-headless
-torch
-torchvision
-ultralytics
-numpy
-scipy
+- fastapi
+- uvicorn[standard]
+- python-socketio
+- opencv-python-headless
+- torch
+- torchvision
+- ultralytics
+- numpy
+- scipy
 
 # Installation
 npm install so
 
 # Run
 uvicorn main:app
+adb forward tcp:8080 tcp:8080
 npm start
 
 ### Project Documentation
